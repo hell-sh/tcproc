@@ -45,7 +45,7 @@ do
 		else
 		{
 			fwrite($client, "tcproc: failed to start process\n");
-			fclose($fclient);
+			fclose($client);
 		}
 	}
 	foreach($clients as $i => $client)
